@@ -11,5 +11,11 @@ public class TestController {
 	{
 		return "green";
 	}
+	
+	@RequestMapping("/helloblue")
+	public String sayHelloBlue()
+	{
+		return "blue";
+	}
 
 }
