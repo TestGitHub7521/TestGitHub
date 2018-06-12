@@ -1,0 +1,9 @@
+applications:
+- name: TestSpringBootMavenGreen
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  routes:
+  - route: testspringbootmavenblue.cfapps.io/hello
+  stack: cflinuxfs2
+  path: /target/TestSpringBootMaven-0.0.1-SNAPSHOT.jar
