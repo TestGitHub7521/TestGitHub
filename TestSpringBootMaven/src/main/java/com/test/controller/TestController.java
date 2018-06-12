@@ -15,7 +15,7 @@ public class TestController {
 	@RequestMapping("/helloblue")
 	public String sayHelloBlue()
 	{
-		return "red";
+		return "re";
 	}
 
 }
